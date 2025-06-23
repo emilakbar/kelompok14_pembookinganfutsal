@@ -49,6 +49,7 @@ $data = $koneksi->query("SELECT * FROM pembookingan");
         <?php endwhile; ?>
       </tbody>
     </table>
+    <a href="laporan.php" class="btn btn-primary">Lihat Laporan</a>
   </div>
 </body>
 </html>
